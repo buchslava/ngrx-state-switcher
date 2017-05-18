@@ -1,0 +1,52 @@
+{
+  "name": "ngrx-state-switcher",
+  "version": "0.0.1",
+  "description": "State switcher meta reducer for @ngrx/store",
+  "main": "./dist/index.js",
+  "scripts": {
+    "build_dist": "rm -rf dist && tsc",
+    "prepublish": "npm run build_dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/buchslava/ngrx-state-switcher.git"
+  },
+  "keywords": [
+    "redux",
+    "ngrx",
+    "store",
+    "rxjs",
+    "undo",
+    "redo"
+  ],
+  "author": {
+    "name": "Vyacheslav Chub",
+    "email": "vyacheslav.chub@gmail.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/btroncone/state-switcher/issues"
+  },
+  "homepage": "https://github.com/btroncone/state-switcher#readme",
+  "peerDependencies": {
+    "@ngrx/store": "^2.2.1"
+  },
+  "devDependencies": {
+    "@angular/core": "^2.4.7",
+    "@ngrx/core": "^1.2.0",
+    "@ngrx/store": "^2.2.1",
+    "es6-promise": "^3.0.2",
+    "es6-shim": "^0.35.0",
+    "reflect-metadata": "0.1.10",
+    "rimraf": "^2.5.1",
+    "tslint": "^3.4.0",
+    "typescript": "^2.1.4",
+    "rxjs": "^5.4.0",
+    "zone.js": "^0.7.7"
+  },
+  "typings": "./dist/index.d.ts",
+  "dependencies": {
+    "@types/lodash": "^4.14.64",
+    "lodash": "^4.17.4"
+  }
+}
